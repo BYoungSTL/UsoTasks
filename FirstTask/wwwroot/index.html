@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ASP.NET Application</title>
+	<link rel="shortcut icon" href="#">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container body-content">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>What you need to do?</h1>
+					<input type = "button" onclick = "getItems()" value = "Display">  
+					<div id="items">
+
+					</div>
+			</div>
+		</div>
+    </div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type = "text/javascript">
+		function getItems() {
+			
+			let items; 
+			fetch("https://localhost:7147/Home")
+			.then(response => {
+				response.json().then(data => ({
+					data: data,
+					status: response.status
+				}))
+				.then(res => {
+					console.log(res.data)
+					let parent = document.getElementById("items")
+					res.data.forEach(item => {
+						if (item.id == 2 || item.id == 3) {
+							let element = document.createElement('ul');
+							element.innerHTML = "<li>" + item.id + "</li>\n" + "<li>" + item.title + "</li>\n" + "<li>" + item.data1 + "</li>\n" + "<li>" + item.data2 + "</li>\n" + "<li>" + item.data3 + "</li>\n" + "<li>" + item.data4 + "</li>\n" + "<li>" + item.otherTypeValue.id + "</li>\n" + "<li>" + item.otherTypeValue.title + "</li>\n"
+							parent.appendChild(element)
+						}
+					});
+				})
+			})
+			.catch(error => console.error('Unable to get item.', error));
+		}
+	</script>
+</body>
+</html>

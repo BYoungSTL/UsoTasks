@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "sTzvKelzPfi+Ywe6K+847JyNPT4WLSp0kAFhimSM3sA=",
+  "Source": "FirstTask",
+  "BasePath": "_content/FirstTask",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstTask\\wwwroot",
+      "Source": "FirstTask",
+      "ContentRoot": "D:\\UcoTasks\\UsoTasks\\FirstTask\\wwwroot\\",
+      "BasePath": "_content/FirstTask",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\UcoTasks\\UsoTasks\\FirstTask\\wwwroot\\index.html",
+      "SourceId": "FirstTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UcoTasks\\UsoTasks\\FirstTask\\wwwroot\\",
+      "BasePath": "_content/FirstTask",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+D:\UcoTasks\UsoTasks\ThirdTask\bin\Debug\net8.0\ThirdTask.exe
+D:\UcoTasks\UsoTasks\ThirdTask\bin\Debug\net8.0\ThirdTask.deps.json
+D:\UcoTasks\UsoTasks\ThirdTask\bin\Debug\net8.0\ThirdTask.runtimeconfig.json
+D:\UcoTasks\UsoTasks\ThirdTask\bin\Debug\net8.0\ThirdTask.dll
+D:\UcoTasks\UsoTasks\ThirdTask\bin\Debug\net8.0\ThirdTask.pdb
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.AssemblyInfoInputs.cache
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.AssemblyInfo.cs
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.csproj.CoreCompileInputs.cache
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.dll
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\refint\ThirdTask.dll
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.pdb
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ThirdTask.genruntimeconfig.cache
+D:\UcoTasks\UsoTasks\ThirdTask\obj\Debug\net8.0\ref\ThirdTask.dll
